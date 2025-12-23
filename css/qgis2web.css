@@ -50,6 +50,7 @@
         .leaflet-popup-content td img {
             max-height: 60vh;
             max-width: 60vw;
+			overflow: auto;
         }
 
         .leaflet-tooltip {
@@ -196,4 +197,5 @@
         }
         .leaflet-control-layers-expanded .leaflet-control-layers-toggle {
             display: none;
+
         }
