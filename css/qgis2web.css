@@ -38,6 +38,7 @@
         .leaflet-popup-content.media{
             width: auto!important;
             height: auto!important;
+			overflow: auto!important;
         }
         .leaflet-popup-content th {
             text-align: left;
@@ -50,7 +51,7 @@
         .leaflet-popup-content td img {
             max-height: 60vh;
             max-width: 60vw;
-	     	overflow: auto;
+	     	overflow: auto!important;
         }
 
         .leaflet-tooltip {
@@ -199,3 +200,4 @@
             display: none;
 
         }
+
